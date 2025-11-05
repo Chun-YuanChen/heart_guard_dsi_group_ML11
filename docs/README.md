@@ -5,7 +5,7 @@
 | Develop business case                                                      | Pending    | [Link](../README.md#business--case)                  |
 | Create GitHub repo                                                         | Chun-Yuan  | [Link](../README.md)                                 |
 | Define project objective                                                   | Pending    | [Link](../README.md#objectives)                      |
-| Build project timeline                                                     | Pending    | [Link](../documentation/README.md#project--timeline) |
+| Build project timeline                                                     | Pending    | [Link](../README.md#timeline)                        |
 | Describe dataset, features, and target                                     | Pending    | [Link](../README.md#dataset-features-and-target)     |
 | Preprocess: describe steps                                                 | Pending    | [Link](../README.md#preprocessing)                   |
 | Preprocess: load, check, and clean data                                    | Pending    | [Link](../models/preprocess.ipynb)                   |
@@ -25,7 +25,7 @@
 | Write conclusion, limitations, and future directions                       | Pending    | [Link](../README.md#conclusion)                      |
 | Prepare 5-min presentation (Sat., Nov 15)                                  | Pending    | [Link](../presentation)                              |
  
-# Pull Request (PR)
+# Create and Review Pull Request (PR)
 🔔 Evaluation criteria: Each team member must have created a PR.<br>
 🔔 Evaluation criteria: Each team member must have reviewed a PR.<br>
 🔔 Evaluation criteria: Each team member must have merged a different PR.<br>
