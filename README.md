@@ -1,12 +1,12 @@
 # Heart Failure Prediction Dataset
 
 ## Members (alphabetical)
-* Amy Li
-* Chun-Yuan Chen 
+* [Amy Li](https://github.com/lsmamy)
+* [Chun-Yuan Chen](https://github.com/Chun-YuanChen) 
 * Isra Khan
 * Jaskirat Kaur
-* Uma Deshpande
-* Yi-Chen Hsiao
+* [Uma Deshpande](https://github.com/aniruma3012)
+* [Yi-Chen Hsiao](https://github.com/yichen-hsiao)
 
 ## Content
 * [Purpose & Overview](#purpose--overview)
@@ -14,26 +14,35 @@
 * [Techniques & Technologies](#techniques--technologies)
 * [Key Findings & Instructions](#key-findings--instructions)
 * [Visuals & Credits](#visuals--credits)
+* [Reflection Videos](#reflection--videos)
 
 ## Purpose & Overview
-
 Pending
 
 ## Goals & Objectives
-
 Pending
 
 ## Techniques & Technologies
-
 Pending
 
 ## Key Findings & Instructions
-
 Pending
 
 ## Visuals & Credits
-
 Pending
+
+
+## Reflection Videos
+** The links currently point to YouTube as placeholders; please replace them with your own video links once ready. **
+
+* [Amy Li](https://www.youtube.com/)
+* [Chun-Yuan Chen](https://www.youtube.com/) 
+* [Isra Khan](https://www.youtube.com/)
+* [Jaskirat Kaur](https://www.youtube.com/)
+* [Uma Deshpande](https://www.youtube.com/)
+* [Yi-Chen Hsiao](https://www.youtube.com/))
+
+
 
 
 
