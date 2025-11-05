@@ -2,7 +2,7 @@
 
 ## Data Sciences Institute, University of Toronto - Cohort 7 - ML Team 11
 
-## Members (alphabetical)
+### Members (alphabetical)
 * [Amy Li](https://github.com/lsmamy)
 * [Chun-Yuan Chen](https://github.com/Chun-YuanChen) 
 * Isra Khan
