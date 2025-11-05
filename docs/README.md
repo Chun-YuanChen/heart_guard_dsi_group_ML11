@@ -28,6 +28,8 @@
 | 23. Write conclusion, limitations, and future directions                             | Pending    | [Link](../README.md#conclusion)                 |
 | 24. Prepare 5-min presentation (Sat., Nov 15)                                        | Pending    | [Link](../presentation)                         |
 
+*Friendly Reminder: do not commit directly to the main branch, each task should be developed in its own branch for review.*
+
 # Create and Review Pull Request (PR)
 🔔 Evaluation criteria: Each team member must have created a PR.<br>
 🔔 Evaluation criteria: Each team member must have reviewed a PR.<br>
@@ -42,4 +44,4 @@
 | Uma Deshpande     | Yi-Chen Hsiao     | Amy Li            |
 | Yi-Chen Hsiao     | Amy Li            | Chun-Yuan Chen    |
 
-*Notes: The final reviewer also merges the PR.*  
+*Notes: the final reviewer also merges the PR.*  
