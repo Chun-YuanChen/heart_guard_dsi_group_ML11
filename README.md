@@ -11,6 +11,7 @@
 * [Yi-Chen Hsiao](https://github.com/yichen-hsiao)
 
 ## Abstract
+(Objectives, Methods, Results, Conclusions)<br>
 Pending
 
 ## Overview
@@ -62,7 +63,7 @@ Pending
 Pending
 
 ### Comparison
-(Baseline model vs. Advanced model)
+(Baseline model vs. Advanced model)<br>
 Pending
 
 ## Conclusion
