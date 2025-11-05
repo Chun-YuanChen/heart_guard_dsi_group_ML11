@@ -1,5 +1,13 @@
 # Heart Failure Prediction Dataset
 
+## Members (alphabetical)
+* Amy Li
+* Chun-Yuan Chen 
+* Isra Khan
+* Jaskirat Kaur
+* Uma Deshpande
+* Yi-Chen Hsiao
+
 ## Content
 * [Purpose & Overview](#purpose--overview)
 * [Goals & Objectives](#goals--objectives)
