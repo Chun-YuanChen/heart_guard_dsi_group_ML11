@@ -14,13 +14,13 @@
 Pending
 
 ## Overview
-* [Business Case](#business--case)
+* [Business Case](#business-case)
 * [Objectives](#objectives)
 * [Methods](#methods)
 * [Results](#results)
 * [Conclusion](#conclusion)
 * [Requirements](#requirements)
-* [Reflection Videos](#reflection--videos)
+* [Reflection Videos](#reflection-videos)
 
 ## Business Case
 Pending
