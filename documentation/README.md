@@ -18,4 +18,4 @@ Pending
 | Uma Deshpande     | Yi-Chen Hsiao     | Amy Li            |
 | Yi-Chen Hsiao     | Amy Li            | Chun-Yuan Chen    |
 
-Notes. The final reviewer also merges the PR. 
+*Notes: The final reviewer also merges the PR.*  
