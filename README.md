@@ -10,9 +10,6 @@
 * [Uma Deshpande](https://github.com/aniruma3012)
 * [Yi-Chen Hsiao](https://github.com/yichen-hsiao)
 
-## Project Timeline
-Pending
-
 ## Content
 * [Purpose & Overview](#purpose--overview)
 * [Goals & Objectives](#goals--objectives)
@@ -37,7 +34,7 @@ Pending
 Pending
 
 ## Reflection Videos
-The links currently point to YouTube as placeholders; please replace them with your own video links once ready.
+The links currently point to YouTube as placeholders; please replace them with your own 3-5 minute video links once ready.
 
 * [Amy Li](https://www.youtube.com/)
 * [Chun-Yuan Chen](https://www.youtube.com/) 
@@ -51,6 +48,7 @@ The links currently point to YouTube as placeholders; please replace them with y
 ```markdown
 .
 ├── data
+├── documentation
 ├── images
 ├── models
 ├── presentation
@@ -59,6 +57,7 @@ The links currently point to YouTube as placeholders; please replace them with y
 ```
 
 * **data**: Raw, processed, and finalized datasets.
+* **documentation**: Project timeline, action items, and related notes.
 * **images**: Contains any images generated from EDA to modeling.
 * **models**: Baseline and machine learning models for comparison.
 * **presentation**: Slides and materials for project showcase. 
