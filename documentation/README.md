@@ -2,14 +2,14 @@
 Pending
 
 # Action Items
-| Task                                                                       | Lead       | Anchor                              | 
-| -------------------------------------------------------------------------- | ---------- | ----------------------------------- |
-| Choose dataset                                                             | All        | [Link](../data/raw)                  |
-| Develop business case                                                      | Pending    |                                     |
-| Create GitHub repo                                                         | Chun-Yuan  |                                     |
-| Define project objective                                                   | Pending    |                                     |
-| Build project timeline                                                     | Pending    |                                     |
-| Describe dataset, features, and target                                     | Pending    |                                     |
+| Task                                                                       | Lead       | Anchor                                               | 
+| -------------------------------------------------------------------------- | ---------- | ---------------------------------------------------- |
+| Choose dataset                                                             | All        | [Link](../data/raw)                                  |
+| Develop business case                                                      | Pending    | [Link](../README.md#business--case)                  |
+| Create GitHub repo                                                         | Chun-Yuan  | [Link](../README.md)                                 |
+| Define project objective                                                   | Pending    | [Link](../README.md#objectives)                      |
+| Build project timeline                                                     | Pending    | [Link](../documentation/README.md#project--timeline) |
+| Describe dataset, features, and target                                     | Pending    | [Link](../documentation/README.md#dataset,--features,--and target) |
 | Preprocess data: load, check, clean                                        | Pending    |                                     |
 | Perform exploratory data analysisus (EDA) and descriptive statistics       | Pending    |                                     |
 | Summarize preprocessing and EDA findings                                   | Pending    |                                     |
