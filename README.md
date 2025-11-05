@@ -29,6 +29,13 @@ We are a machine learning team working on heart disease prevention. Our job is t
 Pending
 
 ## Methods
+### Preprocessing
+Pending
+
+### Baseline mode
+Pending
+
+### Advanced model
 Pending
 
 ## Results
