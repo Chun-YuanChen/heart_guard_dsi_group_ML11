@@ -2,23 +2,24 @@
 Pending
 
 # Action Items
-| Task                                                                                     | Lead       |                                     |
-| ---------------------------------------------------------------------------------------- | ---------- | ----------------------------------- |
-| Choose a dataset                                                                         | All        |                                     |
-| Develop a business case                                                                  | Pending    |                                     |
-| Create a GitHub repo                                                                     | Chun-Yuan  |                                     |
-| Describe the project objective                                                           | Pending    |                                     |
-| Make the project timeline                                                                | Pending    |                                     |
-| Describe the dataset, features, and outcome                                              | Pending    |                                     |
-| Preprocessing: Load, check, and clean the dataset                                        | Pending    |                                     |
-| Describe preprocessing and EDA findings                                                  | Pending    |                                     |
-| Baseline model: build model, Split dataset, and train model                              | Pending    |                                     |
-| Baseline model: evaluate model and visualize performance                                 | Pending    |                                     |
-| Advanced model: build model, feature engineering, hyperparameter tuning, and train model | Pending    | [Link](../README.md#advanced-model) |
-| Advanced model: evaluate model and visualize performance                                 | Pending    |                                     |
-| Describe baseline and ML methods and summarize findings of comparison                    | Pending    |                                     |
-| Describe conclusion, limitations, and future directions                                  | Pending    |                                     |
-| 5 minutes presentation (Sat., Nov 15)                                                    | Pending    |                                     |
+| Task                                                                       | Lead       | Anchor                              | 
+| --------------------------------------------------------------------------------------- | ----------------------------------- |
+| Choose dataset                                                             | All        |                                     |
+| Develop business case                                                      | Pending    |                                     |
+| Create GitHub repo                                                         | Chun-Yuan  |                                     |
+| Define project objective                                                   | Pending    |                                     |
+| Build project timeline                                                     | Pending    |                                     |
+| Describe dataset, features, and target                                     | Pending    |                                     |
+| Preprocess data: load, check, clean                                        | Pending    |                                     |
+| Perform exploratory data analysisus (EDA) and descriptive statistics       | Pending    |                                     |
+| Summarize preprocessing and EDA findings                                   | Pending    |                                     |
+| Baseline model: build model, split data, train model                       | Pending    |                                     |
+| Baseline model: evaluate model and visualize performance                   | Pending    |                                     |
+| Advanced model: build model, engineer features, tune, and train model      | Pending    | [Link](../README.md#advanced-model) |
+| Advanced model: evaluate model and visualize performance                   | Pending    |                                     |
+| Describe both models and summarize comparison findings                     | Pending    |                                     |
+| Write conclusion, limitations, and future directions                       | Pending    |                                     |
+| Prepare 5-min presentation (Sat., Nov 15)                                  | Pending    |                                     |
 
 # Pull Request (PR)
 🔔 Evaluation criteria: Each team member must have created a PR.<br>
