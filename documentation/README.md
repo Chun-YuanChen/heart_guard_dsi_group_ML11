@@ -9,10 +9,11 @@ Pending
 | Create GitHub repo                                                         | Chun-Yuan  | [Link](../README.md)                                 |
 | Define project objective                                                   | Pending    | [Link](../README.md#objectives)                      |
 | Build project timeline                                                     | Pending    | [Link](../documentation/README.md#project--timeline) |
-| Describe dataset, features, and target                                     | Pending    | [Link](../README.md#dataset-features-and-target) |
-| Preprocess data: load, check, clean                                        | Pending    |                                     |
-| Perform exploratory data analysisus (EDA) and descriptive statistics       | Pending    |                                     |
-| Summarize preprocessing and EDA findings                                   | Pending    |                                     |
+| Describe dataset, features, and target                                     | Pending    | [Link](../README.md#dataset-features-and-target)     |
+| Preprocess data: load, check, clean                                        | Pending    | [Link](../README.md#preprocessing)                   |
+| Summarize preprocessing findings                                           | Pending    | [Link](../README.md#preprocessing-2)                 |
+| Perform exploratory data analysisus (EDA) and descriptive statistics       | Pending    | [Link](../README.md#eda)                             |
+| Summarize EDA findings                                                     | Pending    | [Link](../README.md#eda-2)                           |
 | Baseline model: build model, split data, train model                       | Pending    |                                     |
 | Baseline model: evaluate model and visualize performance                   | Pending    |                                     |
 | Advanced model: build model, engineer features, tune, and train model      | Pending    | [Link](../README.md#advanced-model) |
