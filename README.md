@@ -5,7 +5,7 @@
 ### Members (alphabetical)
 * [Amy Li](https://github.com/lsmamy)
 * [Chun-Yuan Chen](https://github.com/Chun-YuanChen) 
-* Isra Khan
+* [Isra Khan](https://github.com/Issy90)
 * Jaskirat Kaur
 * [Uma Deshpande](https://github.com/aniruma3012)
 * [Yi-Chen Hsiao](https://github.com/yichen-hsiao)
