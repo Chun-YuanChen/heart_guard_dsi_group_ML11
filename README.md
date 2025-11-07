@@ -20,7 +20,7 @@ Pending
 ## Overview
 * [Business Case](#business-case)
 * [Objectives](#objectives)
-* [Timeline](#timeline)
+* [Project Roadmap](#project-roadmap)
 * [Methods](#methods)
 * [Results](#results)
 * [Conclusion](#conclusion)
@@ -34,7 +34,7 @@ We are a machine learning team working on heart disease prevention. Our job is t
 Pending
 
 ## Project Roadmap
-<img src="images/Project Roadmap.png" width="550"/>
+<img src="images/Project Roadmap.png" width="800"/>
 
 ## Methods
 ### Dataset, features, and target 
