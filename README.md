@@ -1,4 +1,4 @@
-# HeartGuard ML: Detect risk before heart failure appear.
+# HeartGuard ML: Detect risk before heart failure appear
 
 ## Data Sciences Institute, University of Toronto - Cohort 7 - ML Team 11
 
