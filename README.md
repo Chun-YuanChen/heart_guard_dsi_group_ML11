@@ -11,7 +11,7 @@
 * [Yi-Chen Hsiao](https://github.com/yichen-hsiao)
 
 ### Collaboration
-Please see [taskboard](../taskboard/README.md)
+Please see [taskboard](taskboard)
 
 ## Abstract
 (Objectives, Methods, Results, Conclusions, Keywords)<br>
