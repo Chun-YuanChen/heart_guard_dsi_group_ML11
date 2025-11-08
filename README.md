@@ -14,12 +14,9 @@
 Please see [taskboard](taskboard)
 
 ## Abstract
-Objectives: 
-Methods:
-Expected Outcomes:
-Significance:
+**Objectives**: Develop machine learning models to identify important predictors of heart disease. **Methods**: Use the Heart Failure Prediction Dataset (918 observations) with preprocessing steps, exploratory data analyses, and models like Logistic Regression, Random Forest, and/or XGBoost. **Expected Outcomes**: Deliver a validated predictive model with a high performace that highlights influential features. **Significance**: The model will inform relevant stakeholders such as medical technology companies to design targeted interventions and improve heart disease prevention strategies.<br>
 
-Keywords: heart failure, machine learning, classification
+Keywords: heart failure, machine learning, classification<br>
 
 ## Overview
 * [Business Case](#business-case)
