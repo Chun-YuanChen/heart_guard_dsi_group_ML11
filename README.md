@@ -99,6 +99,20 @@ After model comparison (baseline vs. advanced), To analyze and determine the fea
 ### Limitations
 The Heart Failure Prediction Dataset's dependability and generalizability are impacted by a number of limitations. With just 918 samples and 11 features, the model's complexity is limited and overfitting may result. Due to the fact that it combines data from five distinct sources, there can be inconsistencies as a result of numerous methods of collecting. Additionally, its limited ethnic variety and possible imbalances make it less typical of larger communities.<br>
 
+### Model Optimization & Cross-validation
+ 
+In the later stages of development, the project will optimize both the baseline and advanced models through hyperparameter tuning. Model evaluation will be conducted using cross-validation techniques, specifically GridSearchCV.
+ 
+### Model Testing & Performance Evaluation
+ 
+During the testing phase, unseen data will be used for prediction. The final performance of both the baseline and advanced models will be assessed using key metrics, including accuracy, precision, recall, F1 score, and the ROC/AUC curve.
+ 
+### Model comparison
+At the conclusion of the testing phase, we will compare the performance of the baseline and advanced models across various evaluation metrics. Based on this comparison, the most effective model will be recommended to the client.
+
+
+
+
 ## Results
 ### Preprocessing
 Pending
