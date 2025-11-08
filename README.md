@@ -26,6 +26,7 @@ Keywords: heart failure, machine learning, classification<br>
 * [Results](#results)
 * [Conclusion](#conclusion)
 * [Reflection Videos](#reflection-videos)
+* [Folder Structure](#Folder-Structure)
 
 ## Business Case
 We are a machine learning team working on heart disease prevention. We support healthcare organizations, including hospitals, government agencies, and private companies developing heart disease prevention solutions, by identifying the key factors that predict heart failure, enabling them to design more effective interventions and products.<br>
