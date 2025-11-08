@@ -70,6 +70,11 @@ We will use the Heart Failure Prediction Dataset from Kaggle to build machine le
 
 Source: fedesoriano. (September 2021). Heart Failure Prediction Dataset. Retrieved [Date Retrieved] from https://www.kaggle.com/fedesoriano/heart-failure-prediction.<br>
 
+### Environment & Dependencies
+* Environment: Python (3.9.19), Jupyter Notebook (VS Code Integration)<br> 
+* Python Libraries: pandas, numpy, random, sklearn, matplotlib, seaborn<br> 
+* Version Control: Git/GitHub<br>
+
 ### Preprocessing
 The dataset will be reviewed starting with data loading and inspection to understand its structure and identify inconsistencies. For handling missing values, the .isnull().sum() function will be used to locate gaps in the data. Outlier detection will be conducted using boxplots, z-scores, and the IQR method to identify and address extreme values. Finally, data normalization and scaling will be performed to bring all numerical features to a similar scale.<br>
 
@@ -118,11 +123,6 @@ Pending
 
 ## Conclusion
 Pending
-
-## Requirements
-* Environment: Python (3.9.19), Jupyter Notebook (VS Code Integration)<br> 
-* Python Libraries: pandas, numpy, random, sklearn, matplotlib, seaborn<br> 
-* Version Control: Git/GitHub<br>
 
 ## Reflection Videos
 The links currently point to YouTube as placeholders; please replace them with your own 3-5 minute video links once ready.
