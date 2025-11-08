@@ -109,7 +109,7 @@ Pending
 ### Advanced model
 Pending
 
-### Comparison
+### Model comparison
 (Baseline model vs. Advanced model)<br>
 Pending
 

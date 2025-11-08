@@ -15,8 +15,8 @@
 | 10. Advanced model (train): split data, engineer features, build, tune (cv), and train model  | Pending           | [Link](../models/advanced.ipynb)         |
 | 11. Advanced model (test): evaluate model and visualize performance                           | Pending           | [Link](../models/advanced.ipynb)         |
 | 12. Advanced model: summarize findings with key figure(s) in Results                          | Pending           | [Link](../README.md#advanced-model)      |
-| 13. Summarize model comparison findings in Results                                            | Pending           | [Link](../README.md#model-comparison)    |
-| 14. Conduct and summarize feature importance for the model with better performance in Results | Pending           | [Link](../README.md#feature-importance)  |
+| 13. Summarize model comparison findings in Results                                            | Pending           | [Link](../README.md#model-comparison-1)  |
+| 14. Conduct and summarize feature importance for the model with better performance in Results | Pending           | [Link](../README.md#feature-importance-1)|
 | 15. Write conclusion, limitations, and future directions                                      | Pending           | [Link](../README.md#conclusion)          |
 | 16. Prepare 5-min presentation (Sat., Nov 15)                                                 | All               | [Link](../presentation)                  |
 
