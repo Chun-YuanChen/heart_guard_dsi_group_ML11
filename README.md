@@ -115,8 +115,7 @@ Pending
 Pending
 
 ### Model comparison
-(Baseline model vs. Advanced model)<br>
-Pending
+We constructed two models for comparison: logistic regression and random forest. To ensure a fair evaluation, both models were trained using identical features and parameters, including 11 features, training set size, data shuffling, stratification strategy, and the number of cross-validation folds. Based on test set accuracy, the random forest model demonstrated superior performance.
 
 ### Feature importance
 We utilized SHAP bar, beeswarm, waterfall, and force plots to visualize feature importance for the model with better performance.
