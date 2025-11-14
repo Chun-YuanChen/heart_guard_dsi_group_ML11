@@ -109,9 +109,9 @@ Pending
 Pending
 
 ### Baseline model
-We used Logistic Regression as our Baseline model and the results on the testing data were: 
-Accuracy:        0.8533
-AUC Score:       0.9200
+We used Logistic Regression as our Baseline model and the results on the testing data were: <br>
+Accuracy:        0.8533 <br>
+AUC Score:       0.9200 <br>
 F1 Score:        0.8514
 
 ### Advanced model
