@@ -190,6 +190,7 @@ In terms of ST slope, about half are flat. 43% are up and 6.9% are down.
 `Baseline model`
 
 Pipeline
+
 <img src="images/logistic_pipeline.png" width="400"/>
 
 We used Logistic Regression as our Baseline model and the results on the testing data were:
@@ -209,7 +210,9 @@ ROC-AUC Curve:
 
 
 `Advanced model`
+
 Pipeline
+
 <img src="images/RF_pipeline.png" width="400"/>
 
 We used Random Forest as our Advanced model and the results on the testing data were:
