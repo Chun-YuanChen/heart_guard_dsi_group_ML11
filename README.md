@@ -78,8 +78,70 @@ Source: fedesoriano. (September 2021). Heart Failure Prediction Dataset. Retriev
 ### Preprocessing
 The dataset will be reviewed starting with data loading and inspection to understand its structure and identify inconsistencies. For handling missing values, the .isnull().sum() function will be used to locate gaps in the data. Outlier detection will be conducted using boxplots, z-scores, and the IQR method to identify and address extreme values. Finally, data normalization and scaling will be performed to bring all numerical features to a similar scale.<br>
 
+**Data Cleaning**
+- No null values found in raw data
+- No duplicate values
+- Abnormal values treated: 172 rows where 'Cholesterol = 0' was replace with Null
+- Outlier Detection and Treatment
+- Number of outliers capped:
+  - Age: 0
+  - RestingBP: 28
+  - Cholesterol: 183
+  - MaxHR: 2
+  - Oldpeak: 16
+
+**Data Summary**
+- Original data has 918 entries, 746 rows after preprocessing was used in model training
+- Data columns (total 12 columns: 11 features, 1 target variable)
+- Age, Resting BP, Cholestrol, Fasting Blood Sugar, Max HR, Heart Disease - Integers ; OldPeak -Float
+- Sex, ChestPainType, Resting ECG, Exercise Angina, ST_slope - Objjects converted to string
+<img src="images/table.png" width="800"/>
+
+
 ### EDA
 Exploratory data analysis will identify patterns, relationships, and trends in the dataset. It will begin with univariate analysis using summary statistics, histograms, and boxplots to understand individual variables. Bivariate analysis will then explore relationships between predictors and the target variable (HeartDisease) using bar charts, scatter plots, and boxplots. A correlation heatmap will measure linear relationships and detect multicollinearity, while pair plots will visualize feature interactions and reveal potential patterns or clusters.<br>
+
+**Distribution of HeartDisease**
+This bar plot shows the distribution of the target variable 'Heart Disease' across the dataset. As observed, the class distribution is highly balanced. 508 individuals have heart disease. 410 individuals do not have heart disease. 
+<img src="images/Bivariate Analysis plots.png" width="800"/>
+
+**Distribution of the variables**
+Most variable appear to be normally distributed, aside from old peak which is dominated by -1. Old peak is ST depression induced by exercise relative to rest
+
+**Distribution of Categorical Variables**
+- Sex
+There are more females in the dataset.
+<img src="images/Sex distribution.png" width="800"/>
+
+- Chest Pain Type*
+In terms of chest pain type, most people do not have any chest pain. This is followed by non-angina chest pain, and then atypical chest pain. Very small smaple of 5% actually have typical chest pain.
+<img src="images/Chest Pain distribution.png" width="800"/>
+
+- Resting ECG
+In terms of resting ECG, most are normal. ST-T wave abnormality and left ventricular hypertrophy are similar in proportion.
+<img src="images/Resting ECG distribution.png" width="800"/>
+
+- ST_Slope
+In terms of ST slope, about half are flat. 43% are up and 6.9% are down.
+<img src="images/ST slope distribution.png" width="800"/>
+
+**Distribution of Heart Disease Among Categorical Variables**
+- There are more males with heart disease than those that did not. This is the opposite for female, where there are more without heart disease.
+- There appears to be a lot more people who are asymptomatic who have heart disease than those that did not. This is perhaps not as suprising as one would expect as the dataset is for heartfailure and most patients with heartfailure do not have any symptoms
+- There are more patients with exercise angina that have chest pain than those who do not.
+- Most patients who do not have heart disease have upward ST slope. Most people with heart disease have flat ST slope.
+<img src="images/Bivariate Analysis plots.png" width="800"/>
+
+**Correlation Analysis**
+1. Age vs HeartDisease (0.28) - Weak positive correlation: older individuals have slightly higher risk of heart disease.
+2. RestingBP vs HeartDisease (0.11) - Weak positive correlation: blood pressure has minimal linear association in this dataset. 
+3. Cholesterol vs HeartDisease (0.08) - Cholesterol alone may not predict heart disease strongly here.
+4. MaxHR vs HeartDisease (-0.4) - Moderate negative correlation suggesting higher maximum heart rate during exercise is associated with lower heart disease risk
+5. Oldpeak vs HeartDisease (0.41) - Moderate positive correlation: more ST depression during exercise (Oldpeak) is associated with higher risk.
+<img src="images/Correlation Heat map.png" width="800"/>
+
+- Pairplots
+<img src="images/Pairplot.png" width="800"/>
 
 ### Models
 
@@ -102,8 +164,8 @@ After model comparison (baseline vs. advanced), To analyze and determine the fea
 The Heart Failure Prediction Dataset's dependability and generalizability are impacted by a number of limitations. With just 918 samples and 11 features, the model's complexity is limited and overfitting may result. Due to the fact that it combines data from five distinct sources, there can be inconsistencies as a result of numerous methods of collecting. Additionally, its limited ethnic variety and possible imbalances make it less typical of larger communities.<br>
 
 ## Results
-### Preprocessing
-Pending
+### Preprocessing and Exploratory data analysis :
+
 
 ### EDA
 Pending
