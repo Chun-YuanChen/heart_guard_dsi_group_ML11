@@ -116,12 +116,12 @@ The Heart Failure Prediction Dataset's dependability and generalizability are im
 ## Results
 
 ### Preprocessing
-- Original data has 918 entries (746 rows after preprocessing was used in model training)
+- Original data has 918 entries (746 rows after abnormal values treated was used in model training)
 - Data columns (total 12 columns: 11 features, 1 target variable)
 - Age, Resting BP, Cholestrol, Fasting Blood Sugar, Max HR, Heart Disease - Integers ; OldPeak -Float
 - Sex, ChestPainType, Resting ECG, Exercise Angina, ST_slope - Objjects converted to string
 
-**Data Description after Preprocessing**
+**Data Summary**
 | Variable      | Count | Mean      | Std Dev   | Min  | 25%  | 50%  | 75%  | Max  |
 |---------------|-------|-----------|-----------|------|------|------|------|------|
 | Age           | 918   | 53.51     | 9.43      | 28.0 | 47.0 | 54.0 | 60.0 | 77.0 |
