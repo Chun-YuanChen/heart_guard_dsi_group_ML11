@@ -90,23 +90,6 @@ The dataset will be reviewed starting with data loading and inspection to unders
   - MaxHR: 2
   - Oldpeak: 16
 
-**Preprocessing Summary**
-- Original data has 918 entries (746 rows after preprocessing was used in model training)
-- Data columns (total 12 columns: 11 features, 1 target variable)
-- Age, Resting BP, Cholestrol, Fasting Blood Sugar, Max HR, Heart Disease - Integers ; OldPeak -Float
-- Sex, ChestPainType, Resting ECG, Exercise Angina, ST_slope - Objjects converted to string
-
-**Data Description after Preprocessing**
-| Variable      | Count | Mean      | Std Dev   | Min  | 25%  | 50%  | 75%  | Max  |
-|---------------|-------|-----------|-----------|------|------|------|------|------|
-| Age           | 918   | 53.51     | 9.43      | 28.0 | 47.0 | 54.0 | 60.0 | 77.0 |
-| RestingBP     | 918   | 132.40    | 18.51     | 0.0  | 120.0| 130.0| 140.0| 200.0|
-| Cholesterol   | 918   | 198.80    | 109.38    | 0.0  | 173.0| 223.0| 267.0| 603.0|
-| FastingBS     | 918   | 0.23      | 0.42      | 0.0  | 0.0  | 0.0  | 0.0  | 1.0  |
-| MaxHR         | 918   | 136.81    | 25.46     | 60.0 | 120.0| 138.0| 156.0| 202.0|
-| Oldpeak       | 918   | 0.89      | 1.07      | -2.6 | 0.0  | 0.6  | 1.5  | 6.2  |
-| HeartDisease  | 918   | 0.55      | 0.50      | 0.0  | 0.0  | 1.0  | 1.0  | 1.0  |
-
 ### EDA
 Exploratory data analysis will identify patterns, relationships, and trends in the dataset. It will begin with univariate analysis using summary statistics, histograms, and boxplots to understand individual variables. Bivariate analysis will then explore relationships between predictors and the target variable (HeartDisease) using bar charts, scatter plots, and boxplots. A correlation heatmap will measure linear relationships and detect multicollinearity, while pair plots will visualize feature interactions and reveal potential patterns or clusters.<br>
 
@@ -131,7 +114,25 @@ After model comparison (baseline vs. advanced), To analyze and determine the fea
 The Heart Failure Prediction Dataset's dependability and generalizability are impacted by a number of limitations. With just 918 samples and 11 features, the model's complexity is limited and overfitting may result. Due to the fact that it combines data from five distinct sources, there can be inconsistencies as a result of numerous methods of collecting. Additionally, its limited ethnic variety and possible imbalances make it less typical of larger communities.<br>
 
 ## Results
-### Exploratory data analysis
+
+### Preprocessing
+- Original data has 918 entries (746 rows after preprocessing was used in model training)
+- Data columns (total 12 columns: 11 features, 1 target variable)
+- Age, Resting BP, Cholestrol, Fasting Blood Sugar, Max HR, Heart Disease - Integers ; OldPeak -Float
+- Sex, ChestPainType, Resting ECG, Exercise Angina, ST_slope - Objjects converted to string
+
+**Data Description after Preprocessing**
+| Variable      | Count | Mean      | Std Dev   | Min  | 25%  | 50%  | 75%  | Max  |
+|---------------|-------|-----------|-----------|------|------|------|------|------|
+| Age           | 918   | 53.51     | 9.43      | 28.0 | 47.0 | 54.0 | 60.0 | 77.0 |
+| RestingBP     | 918   | 132.40    | 18.51     | 0.0  | 120.0| 130.0| 140.0| 200.0|
+| Cholesterol   | 918   | 198.80    | 109.38    | 0.0  | 173.0| 223.0| 267.0| 603.0|
+| FastingBS     | 918   | 0.23      | 0.42      | 0.0  | 0.0  | 0.0  | 0.0  | 1.0  |
+| MaxHR         | 918   | 136.81    | 25.46     | 60.0 | 120.0| 138.0| 156.0| 202.0|
+| Oldpeak       | 918   | 0.89      | 1.07      | -2.6 | 0.0  | 0.6  | 1.5  | 6.2  |
+| HeartDisease  | 918   | 0.55      | 0.50      | 0.0  | 0.0  | 1.0  | 1.0  | 1.0  |
+
+### EDA
 
 **Distribution of HeartDisease**
 
@@ -187,7 +188,7 @@ In terms of ST slope, about half are flat. 43% are up and 6.9% are down.
 ### Model Training Summary
 <img src="images/Model training summary.png" width="800"/>
 
-`Baseline model`
+#### Baseline model
 
 Pipeline
 
@@ -209,7 +210,7 @@ ROC-AUC Curve:
 <img src="images/logistic_roc_auc.png" width="400"/>
 
 
-`Advanced model`
+#### Advanced model
 
 Pipeline
 
