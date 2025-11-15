@@ -290,17 +290,15 @@ The links currently point to YouTube as placeholders; please replace them with y
 ├── data
 ├── images
 ├── models
-├── presentation
 ├── taskboard
 ├── LICENSE
 └── README.md
 ```
 
-* **data**: Raw, processed, and finalized datasets.
+* **data**: Raw and processed datasets.
 * **documentation**: Project timeline, action items, and related notes.
 * **images**: Contains any images generated from EDA to modeling.
-* **models**: Baseline and machine learning models for comparison.
-* **presentation**: Slides and materials for project showcase. 
+* **models**: Notebooks for preprocessing, EDA, baseline and advanced ML models, and feature importance; a pickle file for the best-performing model.
 * **LICENSE**: Repository license information.
-* **README.md**: Project overview and documentation.
+* **README.md**: Project overview, findings, and documentation.
 
