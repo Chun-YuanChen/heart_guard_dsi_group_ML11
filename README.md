@@ -225,11 +225,11 @@ The Random Forest classifier is performing very well with an AUC of 0.94 and an 
 
 Confusion Matrix:
 
-<img src="images/logistic_confusion_matrix.png" width="400"/>
+<img src="images/RF_confusion_matrix.png" width="400"/>
 
 ROC-AUC Curve:
 
-<img src="images/logistic_roc_auc.png" width="400"/>
+<img src="images/RF_roc_auc.png" width="400"/>
 
 ### Model comparison
 We constructed two models for comparison: logistic regression and random forest. To ensure a fair evaluation, both models were trained using identical features and parameters, including 11 features, training set size, data shuffling, stratification strategy, and the number of cross-validation folds. Based on test set accuracy, the random forest model demonstrated superior performance.
