@@ -225,11 +225,11 @@ The Random Forest classifier is performing very well with an AUC of 0.94 and an 
 
 Confusion Matrix:
 
-<img src="images/logistic_confusion_matrix.png" width="400"/>
+<img src="images/RF_confusion_matrix.png" width="400"/>
 
 ROC-AUC Curve:
 
-<img src="images/logistic_roc_auc.png" width="400"/>
+<img src="images/RF_roc_auc.png" width="400"/>
 
 ### Model comparison
 We constructed two models for comparison: logistic regression and random forest. To ensure a fair evaluation, both models were trained using identical features and parameters, including 11 features, training set size, data shuffling, stratification strategy, and the number of cross-validation folds. Based on test set accuracy, the random forest model demonstrated superior performance.
@@ -290,17 +290,15 @@ The links currently point to YouTube as placeholders; please replace them with y
 ├── data
 ├── images
 ├── models
-├── presentation
 ├── taskboard
 ├── LICENSE
 └── README.md
 ```
 
-* **data**: Raw, processed, and finalized datasets.
+* **data**: Raw and processed datasets.
 * **documentation**: Project timeline, action items, and related notes.
 * **images**: Contains any images generated from EDA to modeling.
-* **models**: Baseline and machine learning models for comparison.
-* **presentation**: Slides and materials for project showcase. 
+* **models**: Notebooks for preprocessing, EDA, baseline and advanced ML models, and feature importance; a pickle file for the best-performing model.
 * **LICENSE**: Repository license information.
-* **README.md**: Project overview and documentation.
+* **README.md**: Project overview, findings, and documentation.
 
