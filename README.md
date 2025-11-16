@@ -283,9 +283,9 @@ With more time, our work could move to pilot testing. We would like to partner w
 The links currently point to YouTube as placeholders; please replace them with your own 3-5 minute video links once ready.
 
 * [Amy Li](https://drive.google.com/file/d/16G6pfouyfh0vQgdSSxwZyvXCJqKaApSM/view?usp=sharing)
-* [Chun-Yuan Chen](https://www.youtube.com/) 
+* [Chun-Yuan Chen](https://drive.google.com/file/d/1x57KtPPSrBaGB2vOhLWSlMj4dWKyEQPk/view?usp=drive_link) 
 * [Isra Khan](https://drive.google.com/file/d/1RFV8o9OJEZ4zOMUxIv2oh7El55yPBax2/view?usp=sharing)
-* [Jaskirat Kaur](https://www.youtube.com/)
+* [Jaskirat Kaur](https://www.youtube.com/watch?v=wueGRSkavlw)
 * [Uma Deshpande](https://drive.google.com/file/d/1t14aN286DeHEG6wY-fTDOCQcDKGd5tfw/view?usp=sharing)
 * [Yi-Chen Hsiao](https://www.youtube.com/)
 
