@@ -137,7 +137,7 @@ The Heart Failure Prediction Dataset's dependability and generalizability are im
 **Distribution of HeartDisease**
 
 This bar plot shows the distribution of the target variable 'Heart Disease' across the dataset. As observed, the class distribution is highly balanced. 508 individuals have heart disease. 410 individuals do not have heart disease. 
-<img src="images/Bivariate Analysis plots.png" width="800"/>
+<img src="images/distribution of heart disease.png" width="800"/>
 
 **Distribution of the variables**
 Most variable appear to be normally distributed, aside from old peak which is dominated by -1. Old peak is ST depression induced by exercise relative to rest
