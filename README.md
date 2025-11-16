@@ -271,7 +271,13 @@ In the figure above, we can additionally get a sense of how strong that features
 We also include another example (obs 36) without heart disease using the waterfall and force plots; please refer to the image folder for details.
 
 ## Conclusion
-Pending
+Logistic Regression was our Baseline model and the results on the testing data were: Accuracy: 0.85; AUC Score: 0.92; F1 Score: 0.85. We used Random Forest as our Advanced model and the results on the testing data were: Accuracy: 0.88; AUC Score: 0.94; F1 Score: 0.87. The Random Forest classifier is performing very well with an AUC of 0.94 and an accuracy of 88%. Contrary to logistic regression model, it demonstrates slightly better performance at correctly identifying negative cases (Specificity = 91.0%) than positive cases (Sensitivity = 84.7%), but both metrics are strong.
+From our model training, we have learned that our better model relies most heavily on ST segment slope, chest pain type, and exercise-induced angina to distinguish between heart disease and no heart disease cases. Individuals with a flat or downward slope of the peak exercise ST segment face an increased risk of heart disease. However, the wide spread of SHAP values across all observations indicates that the impact of this feature varies among individuals. Asymptomatic pain is a risk indicator for heart disease, however this is limited usefulness as patients would not be able to know they have symptoms. The spread of SHAP values also shows some variability, suggesting that chest pain type interacts with other features. Exercise-induced angina demonstrates more consistent behavior than ST segment slope and chest pain type. When an individual experiences angina during exercise, the model consistently increases their predicted risk. However, there remains some variation in its impact across different individuals.
+
+Risks and limitations:
+Given the limited sample size, there is concerns around generalizability. Multi-source nature of the data source also can impact data quality. In addition, there are limited amount of features included. For example, lifestyle factors are known to be associated with heart disease. However, these are not included in the features list. 
+With more time, our work could move to pilot testing. We would like to partner with hospital that have existing data to test our model with external datasets. We would then soft launch with hospitals, companies, medical technology companies to gather user feedback, refine the model. Following official launch, our goal would be to integrate into datasets so that it can be used in real time.
+
 
 ## Reflection Videos
 The links currently point to YouTube as placeholders; please replace them with your own 3-5 minute video links once ready.
