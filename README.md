@@ -75,6 +75,10 @@ Source: fedesoriano. (September 2021). Heart Failure Prediction Dataset. Retriev
 * Python Libraries: pandas, numpy, random, sklearn, matplotlib, seaborn<br> 
 * Version Control: Git/GitHub<br>
 
+```markdown
+pip install pandas numpy matplotlib seaborn plotly scikit-learn shap
+```
+
 ### Preprocessing
 The dataset will be reviewed starting with data loading and inspection to understand its structure and identify inconsistencies. For handling missing values, the .isnull().sum() function will be used to locate gaps in the data. Outlier detection will be conducted using boxplots, z-scores, and the IQR method to identify and address extreme values. Finally, data normalization and scaling will be performed to bring all numerical features to a similar scale.<br>
 
@@ -119,7 +123,7 @@ The Heart Failure Prediction Dataset's dependability and generalizability are im
 - Original data has 918 entries (746 rows after abnormal values treated was used in model training)
 - Data columns (total 12 columns: 11 features, 1 target variable)
 - Age, Resting BP, Cholestrol, Fasting Blood Sugar, Max HR, Heart Disease - Integers ; OldPeak -Float
-- Sex, ChestPainType, Resting ECG, Exercise Angina, ST_slope - Objjects converted to string
+- Sex, ChestPainType, Resting ECG, Exercise Angina, ST_slope - objects converted to string
 
 **Data Summary**
 | Variable      | Count | Mean      | Std Dev   | Min  | 25%  | 50%  | 75%  | Max  |
